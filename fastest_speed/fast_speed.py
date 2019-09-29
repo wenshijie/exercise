@@ -33,7 +33,7 @@ def fast_speed(distance,k):
     while k<n:
         for j in range(k,n):
             fs = sum_dis[j]/(j-i+1)
-            print(fs)
+            #print(fs)
             if fs>fs_max:
                 fs_max = fs 
             sum_dis[j] = sum_dis[j]-distance[i]
